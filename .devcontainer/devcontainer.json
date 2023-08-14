@@ -6,7 +6,7 @@
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-			"packages": "file,cpio,bc"
+			"packages": "libncurses-dev,file,cpio,bc"
 		}
 	}
 
