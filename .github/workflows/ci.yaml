@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Configure default answer to all options
+      - name: Configure for default answers to all options
         run: make defconfig
       - name: Make world
         run: make all
